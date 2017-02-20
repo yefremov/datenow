@@ -1,6 +1,6 @@
 {
   "name": "datenow",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple date now polyfill for old browsers and node",
   "main": "index.js",
   "scripts": {

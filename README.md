@@ -1,5 +1,8 @@
 # datenow
 
+[![npm version](https://badge.fury.io/js/datenow.svg)](https://badge.fury.io/js/datenow)
+[![Build Status](https://travis-ci.org/yefremov/datenow.svg?branch=master)](https://travis-ci.org/yefremov/datenow)
+
 Simple `Date.now()` polyfill for old browsers and node.
 
 ## Installation
