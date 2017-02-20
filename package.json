@@ -1,0 +1,24 @@
+{
+  "name": "datenow",
+  "version": "0.0.0",
+  "description": "Date now polyfill for old browsers  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  },
+  "keywords": ["date", "now", "polyfill", "browser", "node"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yefremov/datenow.git"
+  },
+  "author": "Anton Yefremov <anton.yefremov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yefremov/datenow/issues"
+  },
+  "homepage": "https://github.com/yefremov/datenow#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
