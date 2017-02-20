@@ -1,12 +1,12 @@
 
 /**
- * Expose `now`.
+ * Expose `datenow`.
  */
 
 module.exports = typeof Date.now === 'function'
-  ? function now() {
+  ? function datenow() {
     return Date.now();
   }
-  : function now() {
+  : function datenow() {
     return (new Date()).getTime();
   };
