@@ -20,6 +20,12 @@ let timestamp = now();
 // => 1487622014639
 ```
 
+To polyfill `Date.now()` function.
+
+```js
+Date.now = Date.now || require('datenow');
+```
+
 ## Running tests
 
 ```bash
